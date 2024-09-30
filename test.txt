@@ -9,3 +9,25 @@ Command Mode: Press 'Esc'
   Press '.' to repeat the last edit
 Insert Mode: Press 'I' or 'A'
 
+Linix Command
+  git config --global user.name "myname"
+  git config --global user.email "myemail"
+  git config --global user.name
+  git config --global user.email
+  
+  git init
+  git add .
+  git commit -m 'your notes'
+  git status
+  git log
+  git-log(self rename)
+  git reset --hard commitID
+  git reflog
+
+Useful Rename
+  touch ~/.bashrc
+  vi ~/.bashrc
+    alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+    alias ll='ls -al'
+  source ~/.bashrc
+
