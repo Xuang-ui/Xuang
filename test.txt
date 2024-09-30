@@ -35,3 +35,8 @@ Useful Rename
     alias ll='ls -al'
   source ~/.bashrc
 
+Gitignore
+  touch .gitignore
+  vi .gitignore
+    *.a
+    doc/**/*/pdf
