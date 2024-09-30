@@ -9,6 +9,10 @@ Command Mode: Press 'Esc'
   Press '.' to repeat the last edit
 Insert Mode: Press 'I' or 'A'
 
+Short Useful Command
+  ls
+  clear
+
 Linix Command
   git config --global user.name "myname"
   git config --global user.email "myemail"
