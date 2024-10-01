@@ -49,3 +49,19 @@ Branch Edition
   git merge branch_name
   git branch -d branch_name
   git branch -D branch_name
+
+Github beginning
+  github.com/Xuang-ui/Xuang.git
+  ssh-keygen -t rsa
+  cat ~/.ssh/id_rsa.pub
+  ssh -T git@github.com
+
+Remote Repository
+  git remote add origin <ssh_path>
+  git remote
+  git branch -vv
+  git push --set-upstream origin main:main
+  git push
+
+
+
